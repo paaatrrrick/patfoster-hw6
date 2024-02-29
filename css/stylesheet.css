@@ -3,9 +3,30 @@ body {
     color: #1f1f29;
 }
 
-.container {
-  width: 85%;
-  margin: auto;
-  background-color: white;
-  border: 1px solid black;
+.heroSection {
+    background: #1f1f29;
+    color: #f5f5fa;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;  
+}
+
+.heroSection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.heroSection * {
+  font-family: sans-serif;
+}
+
+.greenText {
+    color: #2ecc71;
+}
+
+.heroSection h3 {
+  /* make text uppercase */
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: monospace;
 }
